@@ -48,10 +48,19 @@ function addLink(masterDiv, link)
     /*
     ** initialise le Css
     */
+    // section
+    section.style.padding = "10px";
+    section.style.margin = "10px";
     section.style.backgroundColor = "#fff";
+    // titre
     title.style.color = "#428bca";
-    title.style.textDecoration = "none";
-
+    title.style.display = "inline";
+    title.style.marginRight = "10px";
+    // lien du titre
+    titleLink.style.textDecoration = "none";
+    // lien a coter
+    linkS.style.textDecoration = "none";
+    linkS.style.color = "black";
 
     /*
     ** Ajoute le fils au parents
