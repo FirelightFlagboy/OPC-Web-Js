@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/liensweb.css">
+    <title>Activité 2</title>
+</head>
+
+<body>
+    <h1>Activité 2</h1>
+
+    <p id="log"></p>
+    <button id="add">Ajouter lien</button>
+    <form style="display: none" id="addLink">
+        <input type="text" name="name" id="name" required>
+        <input type="text" name="title" id="title" required>
+        <input type="text" name="url" id="url" required>
+        <input type="submit" value="Ajouter">
+    </form>
+
+    <!-- Les nouveaux éléments sont ajoutés dans cette balise -->
+    <div id="contenu">
+    </div>
+
+    <script src="../js/liensweb.js"></script>
+</body>
+
+</html>
