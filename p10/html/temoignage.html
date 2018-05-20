@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Envoyer des données</title>
+</head>
+
+<body>
+	<h3>Ajouter un temoignage</h3>
+	<form>
+		<p>
+			<label for="name">Pseudo</label>
+			<input type="text" name="name" required>
+		</p>
+		<p>
+			<input type="radio" name="noice" value='5' id="5">
+			<label for="5">Great</label>
+			<br>
+			<input type="radio" name="noice" value='4' id="4">
+			<label for="4">noice</label>
+			<br>
+			<input type="radio" name="noice" value='3' id="3">
+			<label for="3">not that bad</label>
+			<br>
+			<input type="radio" name="noice" value='2' id="2">
+			<label for="2">bof</label>
+			<br>
+			<input type="radio" name="noice" value='1' id="1">
+			<label for="1">wtf</label>
+			<br>
+		</p>
+		<p>
+			<label for="content">Ajouter un message :</label>
+			<br>
+			<textarea name="content" id="content" cols="30" rows="10" required></textarea>
+		</p>
+		<p>
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+		</p>
+	</form>
+
+	<script src="../../p8/js/ajax.js"></script>
+	<script src="../js/temoignage.js"></script>
+</body>
+
+</html>
